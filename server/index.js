@@ -24,7 +24,7 @@ const Task = require('./model/addTaskModel');
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://docket-psi.vercel.app"],
     methods: ["POST, GET, DELETE, PUT"],
     credentials: true,
   })
